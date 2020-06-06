@@ -23,7 +23,7 @@ URL | filename | username | password"""
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    GET_LINK_MSG = """Current plan details"""
+    GET_LINK_MSG = """Use @file2linkTGBot"""
     HELP_USER = """<b>Hai I'm Uploadz bot..</b>
 
 👉 <u>How To Direct Upload File/Video</u>
