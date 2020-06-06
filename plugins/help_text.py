@@ -74,6 +74,21 @@ async def get_me_info(bot, update):
     )
 
 
+@pyrogram.Client.on_message(pyrogram.Filters.command(["getss"]))
+async def get_me_info(bot, update):
+    # logger.info(update)
+    TRChatBase(update.from_user.id, update.text, "/getss")
+    chat_id = str(update.from_user.id)
+    chat_id, plan_type, expires_at = GetExpiryDate(chat_id)
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=Translation.GET_SS_MSG.format(chat_id, plan_type, expires_at),
+        parse_mode="html",
+        disable_web_page_preview=True,
+        reply_to_message_id=update.message_id
+    )
+
+
 @pyrogram.Client.on_message(pyrogram.Filters.command(["start"]))
 async def start(bot, update):
     # logger.info(update)
