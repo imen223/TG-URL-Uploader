@@ -23,11 +23,7 @@ URL | filename | username | password"""
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    CURENT_PLAN_DETAILS = """Current plan details
---------
-Telegram ID: <code>{}</code>
-Plan name: Free Cloned User
-Expires on: 31/12/2020"""
+    CURENT_PLAN_DETAILS = """Current plan details"""
     HELP_USER = """<b>Hai I'm Uploadz bot..</b>
 
 👉 <u>How To Direct Upload File/Video</u>
@@ -53,8 +49,6 @@ Expires on: 31/12/2020"""
     ➥ <i>DFile  - Give File</i>
     ➥ <i>MP3  - Give File as Audio</i>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Send /me to know current plan details
-
 Support Channel : @MalluBotz"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
