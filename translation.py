@@ -24,6 +24,7 @@ URL | filename | username | password"""
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     GET_LINK_MSG = """Use @file2linkTGBot"""
+    GET_SS_MSG = """Use @CaptureSSbot"""
     HELP_USER = """<b>Hai I'm Uploadz bot..</b>
 
 👉 <u>How To Direct Upload File/Video</u>
