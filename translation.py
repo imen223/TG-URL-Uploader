@@ -2,7 +2,7 @@ class Translation(object):
     START_TEXT = """Hi,\n\nI'm <b>Uploadz bot</b>. Just send me any Direct download link and I'll upload file remotely to Telegram....\n\nFor more details hit /help."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
+    UPGRADE_TEXT = ""
     FORMAT_SELECTION = "<b>👋Hi, If you want to set custom thumbnail, send photo before tapping on any of the below buttons.👇</b>"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
