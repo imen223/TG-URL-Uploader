@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """Hi,\n\nI'm <b>Uploadz bot</b>. Just send me any Direct download link and I'll upload file remotely to Telegram....\n\nFor more details hit /help."""
+    START_TEXT = """Hi,\nI'm <b>Uploadz bot</b>. Just send me any Direct download link and I'll upload file remotely to Telegram....\n\nFor more details hit /help."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = ""
