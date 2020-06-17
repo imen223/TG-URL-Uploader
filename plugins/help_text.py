@@ -95,7 +95,7 @@ async def start(bot, update):
     TRChatBase(update.from_user.id, update.text, "/start")
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.START_TEXT,
+        text=f"<a href='tg://user?id={m.from_user.id}'>{m.from_user.first_name}</a>"Translation.START_TEXT,
         reply_to_message_id=update.message_id
     )
 
